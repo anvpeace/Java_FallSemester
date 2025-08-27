@@ -4,7 +4,7 @@ public class ex0{
 
 
 
-
+        system.out.println("Hello World");
 
 
 
