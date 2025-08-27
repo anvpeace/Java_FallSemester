@@ -2,18 +2,14 @@ public class ex0{
 
     public static void main(String[] arg){
 
+        System.out.println("Hello World");
+        // System.out.println("Hello Peace");
 
+        String name;
+        String intro = "Hello ";
+        name = "Peace";
 
-        system.out.println("Hello World");
-
-
-
-
-
-
-
-
-
+        System.out.println(intro + name);
         
     };
 }
