@@ -5,7 +5,7 @@ public class DeclareVar{
 
         name = "Mike";
 
-        String name2 = "Mike";
+        // String name2 = "Mike";
 
         // prints third letter of string 'name'
         System.out.println(name.charAt(2));
