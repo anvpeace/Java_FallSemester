@@ -11,11 +11,6 @@ public class DeclareVar{
         System.out.println(name.charAt(2));
         System.out.println("Hello\nWorld\tHi,\tPeace");
 
-        for(int i= 0; i<name.length(); i++){
-            System.out.println(name);
-        }
-
-        
                 
         System.out.println("Line 1" + name); //.println() = after this line is executed start the next line of code on a new line
         System.out.print("Line 2" + name); //.print() = after this line of code is executed dont start a new line. 
