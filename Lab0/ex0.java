@@ -13,11 +13,7 @@ public class ex0{
 
         System.out.println(intro + name);
         System.out.print(intro + name); // the print doesnt add a new line
-        Scanner input = new Scanner(System.in);
-        
-        String enterName = input.next();
 
-        System.out.println("Enter your name: " + enterName);
 
     };
 }
