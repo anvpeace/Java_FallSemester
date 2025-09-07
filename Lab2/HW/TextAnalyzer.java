@@ -12,7 +12,6 @@ public class TextAnalyzer {
         String sentence = sc.nextLine();
 
         // 1. Print sentence length using .length()
-
         // System.out.println("Sentence length: " + );
 
         System.out.println("Sentence length: " + sentence.length());
