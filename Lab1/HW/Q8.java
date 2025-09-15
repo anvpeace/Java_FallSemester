@@ -1,6 +1,6 @@
 import java.util.Scanner; // Scanner utility is needed to be able to take input from the terminal
 
-public class q8{
+public class Q8{
     public static void main(String[] arg){
 
 
