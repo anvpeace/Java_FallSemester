@@ -1,10 +1,8 @@
+import java.util.StringTokenizer;
 public class Question3{
     public static void main(String[] args){
         /*
-         * Given 2D array for problem 1 and 2
-            1 2 3 4
-            5 6 7 8
-            9 10 11 12
+         *
             
             3. Print reverse of each word in a sentence
 
@@ -21,5 +19,15 @@ public class Question3{
             • option 1: while + for -> tokenizer.hasMoreTokens()
             • option 2: for + for -> tokenizer.countTokens()
          */
+        String sentence = "Hello World"; 
+
+        StringTokenizer tokenizer = new StringTokenizer(sentence);
+        while (tokenizer.hasMoreTokens()) {
+            String word = tokenizer.nextToken();
+            for (int i = word.length() - 1; i >= 0; i--) {
+                System.out.print(word.charAt(i));
+            }
+            System.out.println();
+        }
     }
 }

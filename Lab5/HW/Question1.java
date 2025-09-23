@@ -1,16 +1,38 @@
 public class Question1{
     public static void main(String[] args){
-        /*
-         * Given 2D array for problem 1 and 2
-            1 2 3 4
-            5 6 7 8
-            9 10 11 12
-            
-            1. Calculate and print the sum of each row
-            Example:
-            Sum of row 0: 10
-            Sum of row 1: 26
-            Sum of row 2: 42
-         */
+
+         int arr[][] = {
+            {1,2,3,4},
+            {5,6,7,8},
+            {9,10,11,12}
+         };
+
+        // int sum = 0;
+
+         for (int row = 0; row < arr.length; row++){ //looops through each row
+
+            for(int column = 0; column < arr[row].length; column++){ //loops through each coloumn in the row
+
+                System.out.print(arr[row][column] + " ");
+
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int row = 0; row < arr.length; row++) {
+
+            int sum = 0; // reset for each row
+
+            for (int column = 0; column < arr[row].length; column++) {
+
+                sum += arr[row][column];
+            }
+            System.out.println("Sum of row " + row + ": " + sum);
+        }
+         
+        
+
     }
 }
